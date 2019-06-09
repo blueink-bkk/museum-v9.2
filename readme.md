@@ -8,9 +8,13 @@
 - official title (main title) is in `h1`.
 - for each catalog, create a constructeur if not exist.
 - for each catalog, create a section `c.x` if not exist.
+- for each catalog, extract marques referencees in that catalog.
 - for each article, create a publisher if not exist.
 - for each article, create an author if not exist, and create a link (article-author).
 - for each article, create a section `a.x` if not exist.
+
+##### `cr_keywords`
+- used for marques, auteurs, products.
 
 ##### ltree
 
@@ -21,10 +25,39 @@
 
 ##### Les Indexes
 
+- list of documents-pdf aggregated by construteur. (sec1-2)
+- list of documents-pdf aggregated by marques (constructeur). (sec1-2)
+- list of documents-pdf aggregated by auteur. (sec3-4)
+
 - list of catalogs sorted by title (includes alias/translations).
 - list of catalogs sorted by constructeur.
 - list of articles sorted by publisher.
 - list of catalogs sorted by products.
+
+##### How to build/update l'index des marques.
+- why do we need an index-des-marques : too many...
+- for Google ? No, need to have it sorted.
+- indexes are rebuild when document (catalog) updated/inserted.
+- so far we don't need a document (content-item) _author_.
+
+```
+{
+  "xid": 6506,
+  "sec": 2,
+  "yp": 1897,
+  "h1": "Paul Leboeuf et Guion",
+  "h2": [
+    "radiateurs de chauffage central"
+  ],
+  "fr": "Anciennes maisons Gervais (fondée en 1835 rue des Fossés Saint Jacques) et Paul Leboeuf.",
+  "mk": [
+    "Leguda",
+    "Damien",
+    "Lutetia"
+  ],
+  ...
+}
+```
 
 
 # ANNEXES
