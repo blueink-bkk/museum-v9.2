@@ -29,10 +29,10 @@
 - list of documents-pdf aggregated by marques (constructeur). (sec1-2)
 - list of documents-pdf aggregated by auteur. (sec3-4)
 
-- list of catalogs sorted by title (includes alias/translations).
-- list of catalogs sorted by constructeur.
-- list of articles sorted by publisher.
-- list of catalogs sorted by products.
+- list of catalogs sorted by title (includes alias/translations)
+- list of catalogs sorted by constructeur
+- list of articles sorted by publisher
+- list of catalogs sorted by products
 
 ##### How to build/update l'index des marques.
 - why do we need an index-des-marques : too many...
