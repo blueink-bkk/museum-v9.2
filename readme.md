@@ -26,7 +26,7 @@
 ##### Les Indexes
 
 - list of documents-pdf aggregated by construteur. (sec1-2)
-- list of documents-pdf aggregated by marques (constructeur). (sec1-2)
+- list of documents-pdf aggregated by marques @constructeur. (sec1-2)
 - list of documents-pdf aggregated by auteur. (sec3-4)
 - list of catalogs sorted by title (includes alias/translations)
 - list of catalogs sorted by constructeur
