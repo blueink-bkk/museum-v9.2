@@ -5,3 +5,6 @@
 - xp101-create-new-instance "museum-june-2019" => Ok.
 - xp104-list-app-instances => Ok.
 - xp103-import-xlsx-museum
+- xp116-import-yaml-museum
+  - implemented checksum.
+  - 
